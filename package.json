@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "gitfolio build monteva --theme dark --fork --sort star --order desc"
+    "build": "gitfolio build monteva --theme dark --fork --sort star --order desc",
+    "run": "gitfolio run"
   },
   "repository": {
     "type": "git",
