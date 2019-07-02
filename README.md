@@ -1,2 +1,2 @@
 # monteva.github.io
-repo/dist
+dist
