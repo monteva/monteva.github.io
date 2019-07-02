@@ -1,3 +1,2 @@
 # monteva.github.io
-
-/build/repo/dist
+repo/dist
