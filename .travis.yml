@@ -1,12 +1,8 @@
 before_script:
-  - npm install gitfolio --save -g
-  - node -v
-  - npm -v
-  - ls
+  - npm install gitfolio --save
 
 script:
   - npm run-script build
-  - ls
 
 deploy:
   provider: pages
