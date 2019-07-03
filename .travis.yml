@@ -1,7 +1,8 @@
 before_script:
-  - npm install gitfolio --save
+  - npm i gitfolio -g
 
 script:
+  - npm ls gitfolio
   - gitfolio build monteva
 
 deploy:
