@@ -1,6 +1,5 @@
 before_script:
   - npm install
-  - npm ls gitfolio
   - npm run-script build
 
 deploy:
@@ -8,6 +7,5 @@ deploy:
   skip_cleanup: true
   github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
   keep_history: true
-  local_dir: dist
   on:
     branch: master
