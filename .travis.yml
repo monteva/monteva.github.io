@@ -3,7 +3,7 @@ before_script:
 
 script:
   - npm ls gitfolio
-  - ls
+  - cat package.json
   - gitfolio build monteva
 
 deploy:
