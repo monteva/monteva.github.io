@@ -1,0 +1,28 @@
+language: c
+os: osx
+
+before_script:
+  - npm install -g gulp
+  - npm install
+  - brew update && brew install hugo
+
+script:
+  - rake
+
+branches:
+  only:
+    - master
+
+notifications:
+  email: false
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  local_dir: public
+  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+  on:
+    branch: master
+  repo: takuti/takuti.github.io
+  target_branch: master
+  fqdn: takuti.me
