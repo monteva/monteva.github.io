@@ -1,9 +1,10 @@
 before_script:
   - npm install gitfolio --save -g
-  - sudo apt-get update && sudo apt-get upgrade
+  - ls
 
 script:
   - npm run-script build
+  - ls
 
 deploy:
   provider: pages
