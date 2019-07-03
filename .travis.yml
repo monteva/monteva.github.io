@@ -1,5 +1,5 @@
 before_script:
-  - npm i gitfolio -g
+  - npm install
 
 script:
   - npm ls gitfolio
