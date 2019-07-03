@@ -2,7 +2,7 @@ before_script:
   - npm install gitfolio --save
 
 script:
-  - npm run-script build
+  - gitfolio build monteva
 
 deploy:
   provider: pages
@@ -12,4 +12,3 @@ deploy:
   local_dir: dist
   on:
     branch: master
-  repo: monteva/monteva.github.io
