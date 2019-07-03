@@ -1,5 +1,6 @@
 before_script:
   - npm install
+  - npm ls gitfolio
   - npm run-script build
 
 deploy:
