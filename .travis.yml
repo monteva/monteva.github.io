@@ -1,5 +1,7 @@
 before_script:
   - npm install gitfolio --save -g
+  - node -v
+  - npm -v
   - ls
 
 script:
