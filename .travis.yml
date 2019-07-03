@@ -1,6 +1,6 @@
 before_script:
   - npm install
-  - gitfolio build monteva --theme dark --sort star --order desc
+  - npm run-script build
 
 deploy:
   provider: pages
