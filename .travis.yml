@@ -8,6 +8,10 @@ before_script:
 script:
   - gitfolio build monteva
 
+branches:
+  only:
+    - master
+    
 deploy:
   provider: pages
   skip_cleanup: true
