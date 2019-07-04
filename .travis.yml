@@ -6,7 +6,7 @@ before_script:
   - npm install
 
 script:
-  - npm run start
+  - gitfolio build monteva
 
 deploy:
   provider: pages
