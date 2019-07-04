@@ -1,2 +1,0 @@
-# monteva.github.io
-dist
