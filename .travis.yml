@@ -3,7 +3,7 @@ node_js:
   - "10" # This is the node js version
 
 before_script:
-  - npm install gitfolio -g
+  - npm i gitfolio -g
 
 script:
   - gitfolio build monteva
