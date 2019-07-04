@@ -1,8 +1,12 @@
+language: node_js
+node_js:
+  - "10" # This is the node js version
+
 before_script:
   - npm install
 
 script:
-  - gitfolio build monteva
+  - npm run start
 
 deploy:
   provider: pages
@@ -12,4 +16,3 @@ deploy:
   local_dir: dist
   on:
     branch: master
-  repo: monteva/monteva.github.io
