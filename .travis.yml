@@ -8,9 +8,9 @@ before_script:
 script:
   - gitfolio build monteva
 
-branches:
-  only:
-    - master
+# branches:
+#   only:
+#     - master
     
 deploy:
   provider: pages
