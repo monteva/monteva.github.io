@@ -9,7 +9,7 @@ script:
   - gitfolio build monteva
   
 after_script:
-  - cp -a dist/. ../monteva.github.io
+  - cp -a dist/. ../
     
 deploy:
   provider: pages
