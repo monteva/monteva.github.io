@@ -9,8 +9,9 @@ script:
   - gitfolio build monteva
   
 after_script:
+  - tree
   - ls
-  - cp -a dist/. ../
+#   - cp -a dist/. ../
   - cd ..
   - ls
   - cd monteva.github.io
