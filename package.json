@@ -1,0 +1,24 @@
+{
+  "name": "monteva.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "gitfolio build monteva",
+    "start": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monteva/monteva.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monteva/monteva.github.io/issues"
+  },
+  "homepage": "https://github.com/monteva/monteva.github.io#readme",
+  "dependencies": {
+    "gitfolio": "^0.1.4"
+  }
+}
