@@ -11,8 +11,9 @@ script:
 after_script:
   - ls
   - cp -a dist/. ../
-  - ls
   - cd ..
+  - ls
+  - cd monteva.github.io
   - ls
     
 deploy:
