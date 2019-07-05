@@ -6,8 +6,9 @@ before_script:
   - npm i gitfolio -g
 
 script:
-  - gitfolio build monteva
+  - gitfolio build monteva --theme dark --sort star --order desc
   - cp -a dist/. ../monteva.github.io
+  - rm dist/
   
 # after_script:
 #   - ls
