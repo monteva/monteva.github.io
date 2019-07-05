@@ -7,14 +7,15 @@ before_script:
 
 script:
   - gitfolio build monteva
-  
-after_script:
-  - ls
   - cp -a dist/. ../monteva.github.io
-  - cd ..
-  - ls
-  - cd monteva.github.io
-  - ls
+  
+# after_script:
+#   - ls
+#   - cp -a dist/. ../monteva.github.io
+#   - cd ..
+#   - ls
+#   - cd monteva.github.io
+#   - ls
     
 deploy:
   provider: pages
