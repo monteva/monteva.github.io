@@ -5,18 +5,15 @@ node_js:
 cache: npm
 
 before_script:
-#   - rm -rf monteva.github.io/
   - git clone https://github.com/imfunniee/gitfolio.git
   - cd gitfolio
   - npm install
 
 script:
   - node ./bin/gitfolio.js build monteva --theme dark --sort star --order desc
-  - ls
   - cp -a dist/. ../
   - cd ..
-  - ls
-#   - rm -rf monteva.github.io/
+  - sed -i 's/title>monteva/title>Mont Eva/g' index.html
   - rm -rf gitfolio/
   
 deploy:
