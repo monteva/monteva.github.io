@@ -5,7 +5,7 @@ node_js:
 cache: npm
 
 before_script:
-  - rm -rf gitfolio
+#   - rm -rf gitfolio
   - git clone https://github.com/imfunniee/gitfolio.git
   - cd gitfolio
   - npm install
@@ -15,7 +15,7 @@ script:
   - cp -a dist/. ../monteva.github.io
   - cd ..
   - ls
-  - rm -rf monteva.github.io/
+#   - rm -rf monteva.github.io/
   - rm -rf gitfolio/
   
 deploy:
