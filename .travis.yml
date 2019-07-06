@@ -15,6 +15,7 @@ script:
   - cp -a dist/. ../monteva.github.io
   - cd ..
   - ls
+  - rm -rf monteva.github.io/
   - rm -rf gitfolio/
   
 deploy:
