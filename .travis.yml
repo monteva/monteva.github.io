@@ -12,7 +12,8 @@ before_script:
 
 script:
   - node ./bin/gitfolio.js build monteva --theme dark --sort star --order desc
-  - cp -a dist/. .../monteva.github.io
+  - ls
+  - cp -a dist/. ../monteva.github.io
   - cd ..
   - ls
   - rm -rf monteva.github.io/
