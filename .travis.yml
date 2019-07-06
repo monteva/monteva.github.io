@@ -14,7 +14,7 @@ script:
   - node ./bin/gitfolio.js build monteva --theme dark --sort star --order desc
   - ls
   - cp -a dist/. ../monteva.github.io
-  - rm -rf dist/
+  - cd ..
   - rm -rf gitfolio/
   
 deploy:
